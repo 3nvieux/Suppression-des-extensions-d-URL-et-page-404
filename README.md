@@ -11,9 +11,10 @@ En premier lieu, nous allons ouvrier puis éditer dans le `httpd.conf` d'**Apach
 <img width="500px" src="https://github.com/user-attachments/assets/dd62ecd3-3236-4b6c-aa2f-67d4e66ea40f" alt=" httpd.conf " /><br>
 
 En cliquant dessus, cela nous ouvre un fichier avec **Bloc-notes** (ou autre). Recherchez ces 2 lignes :
-
 `#LoadModule rewrite_module modules/mod_rewrite.so`
 `#LoadModule headers_module modules/mod_headers.so`
+
+Remplacez aussi tout les `AllowOverride None` en `AllowOverride All`.
 
 **Supprimez les hashtags (#)** si existant, **sauvegardez-les** (`Ctrl + S`) et **relancez Apache**.
 
@@ -22,8 +23,6 @@ En cliquant dessus, cela nous ouvre un fichier avec **Bloc-notes** (ou autre). R
 ## Implémentation du fichier (.htaccess)
 
 Le fichier `.htaccess` (sans extension) sera notre fichier servant à configurer la réécriture d'URL de même dossier et la redirection automatique voulu. **Il doit être créé et mis dans la racine du projet** et rendra possible la personnalisation d'URL en supprimant les extensions à la fin.
-
-`.htaccess` :
 
 ```
 RewriteEngine On
