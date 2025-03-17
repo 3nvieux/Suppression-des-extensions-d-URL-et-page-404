@@ -1,10 +1,10 @@
 ## Tutoriel - Suppression des extensions d'URL et page 404
 
-En vue du projet qui sera rendu public, il serait plus agréable de rajouter quelques petites choses simples mais user frendly. Une fois que c'est fait, c'est réutilisable sur tous vos projet web future. Ce tutoriel a pour but d'une **réécriture des URL en supprimant les extensions de fin** (monsite.com/connexion.php -> monsite.com/connexion) et l'ajout d'une **page 404 personnalisé** (en HTML ou PHP).
+Si vous avez un projet qui sera rendu public, il serait plus agréable de rajouter quelques petites choses simples mais user frendly. Une fois que c'est fait, c'est réutilisable sur tous vos projet web future. Ce tutoriel a pour but d'une **réécriture des URL en supprimant les extensions de fin** (monsite.com/connexion.php -> monsite.com/connexion) et l'ajout d'une **page 404 personnalisé** (en HTML ou PHP).
 
 ## Activation du module de réécriture (httpd.conf)
 
-En premier lieu, nous allons ouvrier puis éditer dans le `httpd.conf` d'**Apache** avec **XAMPP**. Il est trouvable dans `C:\xampp\apache\conf` ou sur XAMPP en cliquant sur **Config** puis  **httpd.conf** sur la ligne d'Apache.
+En premier lieu, nous allons ouvrier puis éditer dans le `httpd.conf` d'**Apache**. Sur XAMPP, il est trouvable dans `C:\xampp\apache\conf` ou sur son panel en cliquant sur **Config** puis **httpd.conf** sur la ligne d'Apache. Si vous n'utilisez pas XAMPP, le chemin devrait être semblable.
 
 <img width="500px" src="https://github.com/user-attachments/assets/ec41cfc1-deed-4ca3-bdc7-74e513ad063b" alt="XAMPP Config Apache httpd.conf" /><br>
 
@@ -16,7 +16,7 @@ En cliquant dessus, cela nous ouvre un fichier avec **Bloc-notes** (ou autre). R
 
 Remplacez aussi tout les `AllowOverride None` en `AllowOverride All`.
 
-**Supprimez les hashtags (#)** si existant, **sauvegardez-les** (`Ctrl + S`) et **relancez Apache**.
+**Supprimez les hashtags (#)** si existant, **sauvegardez-les** (`Ctrl + S`) et **relancez Apache**. Si tout est correct, le fichier devrais être pareil que [celui-ci.](https://privatebin.net/?5425338f1f14cf53#DSNSr7So59J3oKjTfDqTo8KmpMxrmautSmbcozCAqhgP)
 
 > Astuce : Vous pouvez ouvrir le fichier via **Word**, **VSCode**, sur le site ci dessus, puis faire `Ctrl + F` pour rechercher la ligne, ou télécharger et remplacer directement avec le lien. Le fichier faisant beaucoup trop de ligne, rechercher à l'œuil serais un enfer.
 
