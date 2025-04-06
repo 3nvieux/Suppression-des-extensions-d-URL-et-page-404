@@ -6,7 +6,7 @@ Si vous avez un projet qui sera rendu public, il serait plus agréable de rajout
 
 En premier lieu, nous allons ouvrier puis éditer dans le `httpd.conf` d'**Apache**. Sur XAMPP, il est trouvable dans `C:\xampp\apache\conf` ou sur son panel en cliquant sur **Config** puis **httpd.conf** sur la ligne d'Apache. Si vous n'utilisez pas XAMPP, le chemin devrait être semblable.
 
-<img width="500px" src="https://github.com/user-attachments/assets/ec41cfc1-deed-4ca3-bdc7-74e513ad063b" alt="XAMPP Config Apache httpd.conf" /><br>
+<img width="500px" src="https://github.com/user-attachments/assets/e9c686dd-fed7-4a2d-bb8a-0b51edee0837" alt="XAMPP Config Apache httpd.conf" /><br>
 
 <img width="500px" src="https://github.com/user-attachments/assets/dd62ecd3-3236-4b6c-aa2f-67d4e66ea40f" alt=" httpd.conf " /><br>
 
